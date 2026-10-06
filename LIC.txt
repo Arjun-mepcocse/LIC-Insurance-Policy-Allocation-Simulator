@@ -1,0 +1,105 @@
+arjun@Admin:~$ cat Lic.java
+import java.util.*;
+
+public class Lic {
+
+    public static void main(String[] args) {
+
+        Scanner s = new Scanner(System.in);
+
+        System.out.println("\nEnter name of the policymaker:");
+        String name = s.nextLine();
+
+        System.out.println("\nEnter whether the person is alive or not? (Y/N):");
+        String alive = s.nextLine();
+
+        System.out.println("\nEnter the gender of the person (M/F):");
+        String gender = s.nextLine();
+
+        System.out.println("\nThe age of the person is:");
+        double age = s.nextDouble();
+        s.nextLine();
+
+        System.out.println("\nEnter the marital status of the person:");
+        String marital_status = s.nextLine();
+
+        System.out.println("\nEnter the father's name of the person:");
+        String fname = s.nextLine();
+
+        System.out.println("\nEnter the mother's name of the person:");
+        String mname = s.nextLine();
+
+        System.out.println("\nEnter the number of siblings:");
+        int noSib = s.nextInt();
+        s.nextLine();
+
+        System.out.println("\nThe number of siblings to the person is " + noSib);
+
+        System.out.println("\nEnter the name of the sibling:");
+        String Sibname = s.nextLine();
+
+        System.out.println("\nEnter the sibling's age:");
+        double Sibage = s.nextDouble();
+        s.nextLine();
+
+        if (age > 18) {
+
+            System.out.println("\nNew Children's Money Back Plan");
+
+        }
+        else if (age >= 18 && age <= 25) {
+
+            System.out.println("\nEnter status:");
+            String status = s.nextLine();
+
+            if (status.equals("Protection")) {
+
+                System.out.println("\nDigi Term");
+
+            }
+            else {
+
+                System.out.println("\nLIC Yuva Term");
+
+            }
+        }
+
+        s.close();
+    }
+}
+arjun@Admin:~$ javac Lic.java
+arjun@Admin:~$ java Lic
+
+Enter name of the policymaker:
+XYZ
+
+Enter whether the person is alive or not? (Y/N):
+Y
+
+Enter the gender of the person (M/F):
+M
+
+The age of the person is:
+27
+
+Enter the marital status of the person:
+Single
+
+Enter the father's name of the person:
+ABC
+
+Enter the mother's name of the person:
+DEF
+
+Enter the number of siblings:
+5
+
+The number of siblings to the person is 5
+
+Enter the name of the sibling:
+GHI
+
+Enter the sibling's age:
+24
+
+New Children's Money Back Plan
