@@ -1,3 +1,17 @@
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=4C1D95&height=200&section=header&text=LIC%20Policy%20Allocation%20Simulator&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" alt="LIC Policy Allocation Simulator banner" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Java+Console+Application;LIC+Plan+Recommendation+Engine;Clean+Input+Handling+%26+Logic" alt="Typing animation" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Java-8%2B-4C1D95?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/Type-Console%20App-6D28D9?style=for-the-badge" alt="Console App" />
+<img src="https://img.shields.io/badge/License-MIT-8B5CF6?style=for-the-badge" alt="License" />
+
+</div>
+
 # LIC Policy Recommender (Console App)
 
 A small, beginner-friendly Java command-line program that collects a few personal details about a prospective policyholder and suggests a matching LIC (Life Insurance Corporation of India) plan based on age and need.
